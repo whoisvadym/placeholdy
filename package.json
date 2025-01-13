@@ -4,12 +4,14 @@
   "description": "Simple image placeholder service for local development",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^3.0.1",
     "nodemon": "^3.1.9"
   }
 }
