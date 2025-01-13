@@ -1,14 +1,21 @@
 {
   "name": "placeholdy",
   "version": "0.0.1",
-  "description": "Simple image placeholder service for local development",
+  "description": "Open-source dockerized placeholder image service for local development",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "placeholder",
+    "image",
+    "service",
+    "docker",
+    "development"
+  ],
+  "author": "Vadym <https://github.com/whoisvadym>",
   "license": "ISC",
   "dependencies": {
     "canvas": "^3.0.1",
